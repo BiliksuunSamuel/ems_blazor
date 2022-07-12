@@ -1,0 +1,15 @@
+﻿@using ems.Client.src.components
+@using ems.Client.src.views
+@using ems.Client.src.shared;
+@using ems.Client.app.model;
+@inject EmployeeModel emp;
+@page "/employee/register"
+  
+  <PageHeader PageTitle="Register Employee"/>
+  <div class="container d-flex flex-column align-items-center justify-content-center" style="width:100%:">
+      <NewEmployeeInfoView />
+  </div>
+
+@code {
+
+}

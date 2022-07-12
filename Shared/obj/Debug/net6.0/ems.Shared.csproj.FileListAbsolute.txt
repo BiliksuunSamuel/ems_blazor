@@ -1,0 +1,12 @@
+C:\Users\bilik\Desktop\microsoft\ems\Shared\bin\Debug\net6.0\ems.Shared.deps.json
+C:\Users\bilik\Desktop\microsoft\ems\Shared\bin\Debug\net6.0\ems.Shared.dll
+C:\Users\bilik\Desktop\microsoft\ems\Shared\bin\Debug\net6.0\ems.Shared.pdb
+C:\Users\bilik\Desktop\microsoft\ems\Shared\obj\Debug\net6.0\ems.Shared.csproj.AssemblyReference.cache
+C:\Users\bilik\Desktop\microsoft\ems\Shared\obj\Debug\net6.0\ems.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bilik\Desktop\microsoft\ems\Shared\obj\Debug\net6.0\ems.Shared.AssemblyInfoInputs.cache
+C:\Users\bilik\Desktop\microsoft\ems\Shared\obj\Debug\net6.0\ems.Shared.AssemblyInfo.cs
+C:\Users\bilik\Desktop\microsoft\ems\Shared\obj\Debug\net6.0\ems.Shared.csproj.CoreCompileInputs.cache
+C:\Users\bilik\Desktop\microsoft\ems\Shared\obj\Debug\net6.0\ems.Shared.dll
+C:\Users\bilik\Desktop\microsoft\ems\Shared\obj\Debug\net6.0\refint\ems.Shared.dll
+C:\Users\bilik\Desktop\microsoft\ems\Shared\obj\Debug\net6.0\ems.Shared.pdb
+C:\Users\bilik\Desktop\microsoft\ems\Shared\obj\Debug\net6.0\ref\ems.Shared.dll

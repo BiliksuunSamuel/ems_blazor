@@ -1,0 +1,27 @@
+﻿@using ems.Client.src.components;
+@using ems.Client.app.model;
+@inject EmployeeModel ems;
+    <div class="col-lg-8 col-xl-6 col-sm-12 col-md-10">
+        <div class="shadow-sm card p-3 border-1 align-self-center"style="align-self:center">
+        <div class="card-body">
+            <CustomInput Label="Employee Name" Name="Name"/>
+            <CustomInput Label="Phone Number" Name="Phone"/>
+            <CustomInput Label="Email Address" Name="Email "/>
+            <CustomInput Label="Address" Name="Address"/>
+            <SizedBox Height="1"/>
+            <CustomButton Title="Submit"/>
+        </div>
+    </div>
+    </div>
+
+@code {
+    [Parameter]
+    public EmployeeModel info { get; set; } = new EmployeeModel();
+
+    public void getInfo()
+    {
+        
+    }
+
+    
+}

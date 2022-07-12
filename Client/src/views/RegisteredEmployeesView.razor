@@ -1,0 +1,53 @@
+﻿@using ems.Client.app.model;
+@inject EmployeeTableHeader tableHeader;
+@inject EmployeeModel emp;
+<div class="card">
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr class="d-table-row">
+                    <td scope="col">
+                       @tableHeader.Name
+                    </td>
+                    <td  scope="col">
+                       @tableHeader.Phone
+                    </td>
+                    <td scope="col">
+                       @tableHeader.Email
+                    </td>
+                    <td scope="col">
+                       @tableHeader.Address
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                @if (employees != null)
+                {
+                    @foreach (EmployeeModel employee in employees)
+                    {
+                        <tr class="d-table-row">
+                            <td scope="col">
+                               @employee.Name
+                            </td>
+                            <td  scope="col">
+                               @employee.Phone
+                            </td>
+                            <td scope="col">
+                               @employee.Email
+                            </td>
+                            <td scope="col">
+                               @employee.Address
+                            </td>
+                        </tr> 
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+@code {
+    [Parameter]
+    public EmployeeModel[]? employees { get; set; }
+}

@@ -1,0 +1,33 @@
+﻿@page "/"
+@using ems.Client.src.components
+@using ems.Client.src.shared
+@using ems.Client.src.views
+@using ems.Client.app.model;
+@inject EmployeeModel emp
+@inject HttpClient client;
+<div class="container">
+    <PageHeader PageTitle="Employees"/>
+    @if (employees != null)
+    {
+        <div class="container">
+            <RegisteredEmployeesView employees="@employees" />
+        </div>
+    }
+    else
+    {
+        <Loader/>
+    }
+</div>
+
+
+@code{
+    private EmployeeModel[]? employees;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var res = await client.GetFromJsonAsync<EmployeeModel[]>("Employees");
+
+        employees = res;
+    }
+}
+

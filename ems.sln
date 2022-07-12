@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ems.Server", "Server\ems.Server.csproj", "{711ED87F-50D2-4CC7-BC3F-497542510C38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ems.Client", "Client\ems.Client.csproj", "{0FE9316C-0450-42E4-A0D3-4CB28F041D4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ems.Shared", "Shared\ems.Shared.csproj", "{70C11A73-D123-46E9-8C6F-10A53323EC14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{711ED87F-50D2-4CC7-BC3F-497542510C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711ED87F-50D2-4CC7-BC3F-497542510C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711ED87F-50D2-4CC7-BC3F-497542510C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711ED87F-50D2-4CC7-BC3F-497542510C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE9316C-0450-42E4-A0D3-4CB28F041D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE9316C-0450-42E4-A0D3-4CB28F041D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE9316C-0450-42E4-A0D3-4CB28F041D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE9316C-0450-42E4-A0D3-4CB28F041D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C11A73-D123-46E9-8C6F-10A53323EC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C11A73-D123-46E9-8C6F-10A53323EC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C11A73-D123-46E9-8C6F-10A53323EC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C11A73-D123-46E9-8C6F-10A53323EC14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4175FCAC-AAD9-494F-B264-0B00008882CC}
+	EndGlobalSection
+EndGlobal
